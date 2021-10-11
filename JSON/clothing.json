@@ -1,0 +1,47 @@
+{
+    "sweaters": [
+        {"name":"Cashmere Sweater", "id":"1","description":"Tailor Made", "cost": 50 , "image_src" : "images/sweaters/sweaters (1).jpg" },
+        {"name":"Green Knit Sweater","id":"2", "description":"Thermal level of 100. Soft grey.", "cost": 60 , "image_src" : "images/sweaters/sweaters (2).jpg" },
+        {"name":"Wool Sweater","id":"3", "description":"Thermal level of 100. Soft grey.", "cost": 25 , "image_src" : "images/sweaters/sweaters (3).jpg" },
+        {"name":"Fall Collection","id":"4", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (4).jpg" },
+        {"name":"Emerald Cardigan","id":"5", "description":"Thermal level of 100. Soft grey.", "cost": 25 , "image_src" : "images/sweaters/sweaters (5).jpg" },
+        {"name":"Thickest Wool","id":"6", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (6).jpg" },
+        {"name":"Cropped Sweater","id":"7", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (8).jpg" },
+        {"name":"Winter Collection","id":"8", "description":"Thermal level of 100. Soft grey.", "cost": 25 , "image_src" : "images/sweaters/sweaters (9).jpg"},
+        {"name":"Basic Knit","id":"9", "description":"Thermal level of 100. Soft grey.", "cost": 40 , "image_src" : "images/sweaters/sweaters (10).jpg" },
+        {"name":"Wool Sweater","id":"10", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (11).jpg" },
+        {"name":"Winter Collection","id":"11", "description":"Thermal level of 100. Soft grey.", "cost": 60 , "image_src" : "images/sweaters/sweaters (12).jpg" },
+        {"name":"Sheep Sweater","id":"12", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (13).jpg" },
+        {"name":"Wool Sweater","id":"13", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (14).jpg" },
+        {"name":"Beige High-Neck","id":"14", "description":"Thermal level of 100. Soft grey.", "cost": 30 , "image_src" : "images/sweaters/sweaters (15).jpg" },
+        {"name":"Christmas Knits","id":"15", "description":"Thermal level of 100. Soft grey.", "cost": 50 , "image_src" : "images/sweaters/sweaters (16).jpg" },
+        {"name":"Winter Collection","id":"16", "description":"Thermal level of 100. Soft grey.", "cost": 35 , "image_src" : "images/sweaters/sweaters (17).jpg"},
+        {"name":"Alpaca Sweater","id":"17", "description":"100% humane Alpaca sourced", "cost": 40 , "image_src" : "images/sweaters/sweaters (1).jpg" }  
+    ],
+    "dresses": [
+        {"name":"Babydoll Dress", "id":"18", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/dresses/dresses (20).jpg" },
+        {"name":"Polka Dots", "id":"19", "description":"Elegant pattern with tafteta laying.", "cost": 100 , "image_src" : "images/dresses/dresses (6).jpg" },
+        {"name":"Lovelace Gown", "id":"20", "description":"Sparkle and shine with lace halter", "cost": 150 , "image_src" : "images/dresses/dresses (22).jpg" },
+        {"name":"Lady in Red", "id":"21", "description":"Lace detailed back for an delicate design.", "cost": 80 , "image_src" : "images/dresses/dresses (17).jpg" },
+        {"name":"Ruffled Tea Dress", "id":"22", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/dresses/dresses (9).jpg" },
+        {"name":"Cottage Dress", "id":"23", "description":"Elegant pattern with tafteta laying.", "cost": 100 , "image_src" : "images/dresses/dresses (10).jpg" },
+        {"name":"Open Back Sundress", "id":"24", "description":"Sparkle and shine with lace halter", "cost": 150 , "image_src" : "images/dresses/dresses (11).jpg" },
+        {"name":"Abstract Flow", "id":"25", "description":"Lace detailed back for an delicate design.", "cost": 80 , "image_src" : "images/dresses/dresses (13).jpg" },
+        {"name":"Sunshine Silk Dress", "id":"26", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/dresses/dresses (12).jpg" },
+        {"name":"Little Black Dress", "id":"27", "description":"Elegant pattern with tafteta laying.", "cost": 100 , "image_src" : "images/dresses/dresses (16).jpg" },
+        {"name":"Blues Romper", "id":"28", "description":"Sparkle and shine with lace halter", "cost": 150 , "image_src" : "images/dresses/dresses (14).jpg" },
+        {"name":"Princess Gown", "id":"29", "description":"Lace detailed back for an delicate design.", "cost": 80 , "image_src" : "images/dresses/dresses (15).jpg" },
+        {"name":"Sailing Sun Dress", "id":"30", "description":"Light chiffon for perfecr for summer days.", "cost": 100 , "image_src" : "images/dresses/dresses (18).jpg" }  
+    ],
+    "jewelry": [
+        {"name":"Gold Hoops", "id":"31", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/jewelry/jewelry (1).jpg" },
+        {"name":"Lock Watch", "id":"32", "description":"Elegant pattern with tafteta laying.", "cost": 100 , "image_src" : "images/jewelry/jewelry (2).jpg" },
+        {"name":"Tangerine Stone Ring", "id":"33", "description":"Sparkle and shine with lace halter", "cost": 50 , "image_src" : "images/jewelry/jewelry (3).jpg" },
+        {"name":"Stone Ring Set", "id":"34", "description":"Lace detailed back for an delicate design.", "cost": 150 , "image_src" : "images/jewelry/jewelry (4).jpg" },
+        {"name":"Twisted Hoops", "id":"35", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/jewelry/jewelry (5).jpg" },
+        {"name":"Opalescence Pendant", "id":"36", "description":"Elegant pattern with tafteta laying.", "cost": 100 , "image_src" : "images/jewelry/jewelry (6).jpg" },
+        {"name":"Chain Wristlet", "id":"37", "description":"Sparkle and shine with lace halter", "cost": 150 , "image_src" : "images/jewelry/jewelry (7).jpg" },
+        {"name":"The Bumble Pin", "id":"38", "description":"Lace detailed back for an delicate design.", "cost": 80 , "image_src" : "images/jewelry/jewelry (8).jpg" },
+        {"name":"Ocean Drop Pendant", "id":"39", "description":"100% Handmade Ethically", "cost": 80 , "image_src" : "images/jewelry/jewelry (9).jpg" }
+    ]
+}
