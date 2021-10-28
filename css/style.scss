@@ -116,7 +116,9 @@ header{
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     padding: 100px;
-    background-position-y: -150px;
+    background-position: 150px -150px;
+    background-color: #e0dcd3;
+
     //display: none;
     section{
         width: 400px;
