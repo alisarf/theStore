@@ -51,9 +51,9 @@ Quickview:
 ### What I learned
 
 - Set and get local storage
-- Build on transversing the DOM
+- Build on traversing the DOM
 - Use JS to build out elements with children as users select categories
-- Build on AJAX techiniques
+- Build on AJAX techniques
 - Creating and accessing JSON data
 - Building and Manipulating Objects in JS
 
