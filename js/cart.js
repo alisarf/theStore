@@ -501,6 +501,7 @@ function cart_itemBuilder(product, cart) {
         //var todelete = element.target.parentNode.querySelectorAll('.cart-item-name');
         var todelete = cartDeleteBtn.parentNode.querySelectorAll('.cart-item-name')[0].innerHTML;
         console.log(todelete)
+        console.log(element + 'this is the elements');
         deleteCartItem(sectionTemplate, todelete);
     });
     addQuanitity.addEventListener('click', function(element) {
@@ -546,29 +547,13 @@ var taxcost;
 function totalCost(){
     //if it is completely empty to override empty object indexes
 
-    /*
-    if (cart.price == undefined) {
-        document.getElementById('checkout-subtotal').innerHTML = "$" + 0;
-        document.getElementById('checkout-tax').innerHTML = "$" + 0;
-        document.getElementById('checkout-total').innerHTML = "$" + 0;
-        saveStorage(cart);
-    }
-    */
-
     console.log(cart)
     var subtotalcost = 0
     var i;
     //console.log(cart[0].price)
     for(i = 0; i<cart.length; i++){
         if (cart[i] === undefined) {
-            //document.getElementById('checkout-subtotal').innerHTML = "$" + 0;
-            //document.getElementById('checkout-tax').innerHTML = "$" + 0;
-            //document.getElementById('checkout-total').innerHTML = "$" + 0;
-            //saveStorage(cart);
             continue;
-            let price = 0;
-            let quantity = 0;
-            subtotalcost += price*quantity;
         } else  {
             var price = Number(cart[i].price);
             var quantity = Number(cart[i].quantity);
@@ -639,14 +624,13 @@ function quickView(){
 
 };
 
-
+//QUICK VIEW SCREEN 
 function buildquickview(element) {
     console.log('this is buildquickview')
     //var quickviewArticle = document.createElement('article');
     //quickviewArticle.classList.add('quickViewContainer');
     var quickviewWrapper = document.createElement('div');
     quickviewWrapper.classList.add('quickViewWrapper');
-
     var quickviewClose = document.createElement('button');
     quickviewClose.classList.add('quickView-close');
     quickviewClose.innerHTML = 'x';
@@ -667,23 +651,16 @@ function buildquickview(element) {
 
     quickviewDescription.appendChild(quickviewDescriptionDesc);
     quickviewCost.appendChild(quickviewCostDesc);
-    console.log(quickviewCost)
-    
-    
     quickviewSection.appendChild(quickviewH6);
-    
     quickviewSection.appendChild(quickviewDescription);
     quickviewSection.appendChild(quickviewCost);
     quickviewWrapper.appendChild(quickviewClose);
     quickviewWrapper.appendChild(quickviewAIMG);
     quickviewWrapper.appendChild(quickviewSection);
     quickviewWrapper.appendChild(quickviewAddCartBtn);
-    //quickviewArticle.appendChild(quickviewWrapper);
 
     var quickviewContainer = document.getElementById('quickViewContainer');
     quickviewContainer.appendChild(quickviewWrapper);
-
-
 
 
     itemName = element.parentNode.querySelector('.item-name').innerHTML;
@@ -723,6 +700,10 @@ function deleteCartItem(sectionTemplate, todelete) {
     for (i = 0; i < cart.length ; i++) {
         if (cart[i] === undefined){
             console.log('this is undefined because you deleted it')
+            totalCost(cart);
+            console.log(cart[0])
+            //delete cart[1];
+
             return;
         }  else {
             if (cart[i].name == todelete) {

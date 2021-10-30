@@ -23,8 +23,8 @@ function validateEmail(userEmail){
 //DISPLAY INVALID ALERT MSG
 function emailHandler() {
     var userEmail = document.getElementById('userEmail').value;
-    console.log(userEmail);
     var checkResult = validateEmail(userEmail);
+    
     if (checkResult == true) {
         alert('Hey you! Thanks for checking out my work!')
         emailAlert.classList.remove('show');

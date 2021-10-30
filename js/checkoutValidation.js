@@ -40,16 +40,12 @@ cvvField.addEventListener('input', () =>{
 function cardNumberHandler() {
     var cardNumber = document.getElementById('cardNumber').value;
     if (cardNumber.length == 14) {
-        console.log('this is great')
         cardNumberField.setAttribute("style", "border: auto");
         invalidCardMsg.classList.remove('show');
     } else if (cardNumber.length < 14) {
-        console.log('not enough char')
         cardNumberField.setAttribute("style", "border: 2px solid red;");
-        invalidCardMsg.classList.add('show');
-        
+        invalidCardMsg.classList.add('show');    
     } else {
-        console.log('too many char')
         cardNumberField.setAttribute("style", "border: 2px solid red;");
         invalidCardMsg.classList.add('show');
     }
@@ -59,15 +55,12 @@ function cardNumberHandler() {
 function cvvHandler() {
     var cvv = document.getElementById('cardCVV').value;
     if (cvv.length == 4) {
-        console.log('this is great')
         cvvField.setAttribute("style", "border: auto");
         invalidCvvMsg.classList.remove('show');
     } else if (cvv.length < 4) {
-        console.log('not enough char')
         cvvField.setAttribute("style", "border: 2px solid red;");
         invalidCvvMsg.classList.add('show');
     } else {
-        console.log('too many char')
         cvvField.setAttribute("style", "border: 2px solid red;");
         invalidCvvMsg.classList.add('show');
     }

@@ -11,7 +11,6 @@ menuBtn.addEventListener('click', () => {
     } else {
         menuBtn.classList.remove('open');
         menuItems.classList.remove('open');
-        //triangle.classList.remove('open');
         menuOpen = false;
     }
 }, true);

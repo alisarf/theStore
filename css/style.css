@@ -125,7 +125,8 @@ header {
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   padding: 100px;
-  background-position-y: -150px;
+  background-position: 150px -150px;
+  background-color: #e0dcd3;
 }
 
 header section {
@@ -846,8 +847,6 @@ footer section #footer-links {
 
 #checkoutContainer #checkoutWrapper #checkout-close-btn {
   display: inline-block;
-  /* position: absolute; */
-  /* right: 0; */
   background: none;
   float: right;
   border: none;
@@ -918,7 +917,13 @@ footer section #footer-links {
 }
 
 #checkoutContainer #checkoutWrapper #checkout_form button:hover {
-  background-color: #75b975;
+  background-color: #2d8d2d;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+.blkBorder {
+  border: 1px solid black;
 }
 
 #social-media-feature {
@@ -1206,7 +1211,7 @@ footer section #footer-links {
     min-width: auto !important;
   }
   #cart-container footer {
-    padding-bottom: 60px;
+    padding-bottom: 130px;
   }
   #cart-container #cart-items section {
     width: 80vw;

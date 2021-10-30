@@ -191,10 +191,10 @@
             <form id="checkout_form" action="checkout_input">
                 <label id="formLabel" for="">Checkout Details</label>
                 <div class="cardNumberWrapper">
-                    <input type="number" id="cardNumber" placeholder="Card Number"/>
+                    <input class="blkBorder" type="number" id="cardNumber" placeholder="Card Number"/>
                     <p id="invalidCardNumber">Please insert 14 characters</p>
                 </div>
-                <select id="cardMonth" name="Month" placeholder= 'month'>
+                <select class="blkBorder" id="cardMonth" name="Month" placeholder= 'month'>
                     <option value="january">January</option>
                     <option value="february">February</option>
                     <option value="march">March</option>
@@ -208,7 +208,7 @@
                     <option value="november">November</option>
                     <option value="december">December</option>
                 </select>
-                <select name="Year">
+                <select class="blkBorder" name="Year">
                     <option value="2016">2021</option>
                     <option value="2017">2022</option>
                     <option value="2018">2023</option>
@@ -220,7 +220,7 @@
                     <option value="2024">2029</option>
                   </select>
                 <div>
-                    <input type="text" id="cardCVV" placeholder="CVV"/>
+                    <input class="blkBorder" type="text" id="cardCVV" placeholder="CVV"/>
                     <p id="invalidCardCVV">Please insert 4 characters</p>
                 </div>
 
@@ -231,7 +231,7 @@
     </article>
 
     <article id="quickViewContainer">
-
+        <!--QUICKVIEW TEMPLATE FOR REFERENCE-->
         <!--
         <div id="quickViewWrapper">
             <button id="quickView-close">x</button>
@@ -250,12 +250,11 @@
     </article>
 
 
-    <script src="js/cart.js"></script>
+    <script src="js/cartv2.js"></script>
     <script src="js/item-card-builder.js"></script>
     <script src="js/emailValidation.js"></script>
     <script src="js/checkoutValidation.js"></script>
     <script src="js/refresh.js"></SCRipt>
     <script src="js/nav-hamburger.js"></script>
-    <script src="js/addCart.js"></script>
 </body>
 </html>
