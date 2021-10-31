@@ -7,20 +7,16 @@ live: https://thestoreco.web.app/
 ## Table of contents
 
 - [Overview](#overview)
-  - [Challenges](#challenges)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Challenges](#challenges)
   - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-
-### Challenges
-
-The greatest challenge with this project has been browser compatibility with Safari. There is a bug that is not allowing the subtotal to be set to zero when the last product is removed from the cart. I've tried using BrowserStack to find the bug that is causing this issue, however, this service is not free or affordable for personal use. I'm allowed a fraction of time, one minute, to access the dev tools before it times out. It feels like "finding a needle in a haystack". In the future I will build my projects out in REACT since it alleviates browser compatibility issues.
 
 ### Screenshot
 
@@ -56,6 +52,10 @@ Quickview:
 - Build on AJAX techniques
 - Creating and accessing JSON data
 - Building and Manipulating Objects in JS
+
+### Challenges
+
+The greatest challenge with this project has been browser compatibility with Safari. There is a bug that is not allowing the subtotal to be set to zero when the last product is removed from the cart. I've tried using BrowserStack to find the bug that is causing this issue, however, this service is not free or affordable for personal use. I'm allowed one minute to access the dev tools before it times out. In the future I will build my projects out in REACT since it alleviates browser compatibility issues.
 
 ### Continued development
 
