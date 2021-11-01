@@ -39,6 +39,7 @@ Quickview:
 - Semantic HTML
 - SCSS
 - JavaScript
+- AJAX
 - JSON
 - Flexbox
 - CSS Grid
